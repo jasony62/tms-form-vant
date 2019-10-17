@@ -1,27 +1,27 @@
 module.exports = {
-    presets: [
-        [
-            '@vue/app',
-            {
-                useBuiltIns: 'entry'
-            }
-        ],
-        [
-            '@vue/babel-preset-jsx',
-            {
-                injectH: false
-            }
-        ]
+  presets: [
+    [
+      '@vue/app',
+      {
+        useBuiltIns: 'entry'
+      }
     ],
-    plugins: [
-        [
-            'import',
-            {
-                libraryName: 'vant',
-                libraryDirectory: 'es',
-                style: true
-            },
-            'vant'
-        ]
+    [
+      '@vue/babel-preset-jsx',
+      {
+        injectH: false
+      }
     ]
+  ],
+  plugins: [
+    [
+      'import',
+      {
+        libraryName: 'vant',
+        libraryDirectory: 'es',
+        style: true
+      },
+      'vant'
+    ]
+  ]
 }

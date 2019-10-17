@@ -25,7 +25,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # 需要配置支持`jsx`
 
 ```
-npm install @vue/babel-preset-jsx @vue/babel-helper-vue-jsx-merge-props -D
+cnpm install @vue/babel-preset-jsx @vue/babel-helper-vue-jsx-merge-props -D
 ```
 
 修改 babel 配置文件（babel.config.js/.babelrc），如下：

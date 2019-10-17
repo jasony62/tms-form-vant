@@ -17,7 +17,7 @@ import { Panel as VanPanel, Button as VanButton } from 'vant'
 Vue.use(VanPanel)
 Vue.use(VanButton)
 
-import { TmsForm } from '@/lib/form'
+import { TmsForm } from '@/lib'
 
 export default {
   components: { TmsForm, VanPanel, VanButton },
