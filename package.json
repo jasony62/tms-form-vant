@@ -1,6 +1,6 @@
 {
   "name": "tms-form-vant",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于Vant的自定义表单组件库",
   "author": "jasony62",
   "license": "MIT",
@@ -58,16 +58,14 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "overrides": [
-      {
-        "files": [
-          "**/__tests__/*.{j,t}s?(x)"
-        ],
-        "env": {
-          "jest": true
-        }
+    "overrides": [{
+      "files": [
+        "**/__tests__/*.{j,t}s?(x)"
+      ],
+      "env": {
+        "jest": true
       }
-    ]
+    }]
   },
   "postcss": {
     "plugins": {
